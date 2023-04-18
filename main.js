@@ -1,4 +1,5 @@
-import "./style.scss";
+// Descomentar para usar sass
+// import "./style.scss";
 
 const text_container = document.querySelector("#text-cont");
 const btn_encriptar = document.querySelector("#encriptar");
