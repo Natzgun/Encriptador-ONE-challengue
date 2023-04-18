@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Quicksand:wght@300;500;700&family=Raleway:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador</title>
+    <script type="module" crossorigin src="/assets/index-58671350.js"></script>
+    <link rel="stylesheet" href="/assets/index-09d40433.css">
+  </head>
+  <body>
+    <div id="app">
+      <nav class="main-nav">
+        <div><h1>OracleONE</h1></div>
+        <div>by Erick Malcoaccha</div>
+      </nav>
+      <section class="main-container">
+        <div class="container-text">
+          <div class="input-container">
+            <textarea
+              type="text"
+              name=""
+              id="text-cont"
+              placeholder="Ingrese texto aqui"
+            ></textarea>
+            <button id="limpiar-input" type="button">Clean</button>
+          </div>
+          <div class="buttons-containers">
+            <button class="btn-encrypt btn-one" id="encriptar" type="button">
+              Encriptar
+            </button>
+            <button class="btn-encrypt btn-two" id="desencriptar" type="button">
+              Desencriptar
+            </button>
+          </div>
+        </div>
+        <div class="render-container">
+          <div id="text-inactive" class="default-container">
+            <div class="render-text-default">
+              <img src="/assets/Munieco-a8ba70a3.png" alt="" />
+              <h3>Ningún mensaje fue encontrado</h3>
+              <p>
+                Ingresa primero el texto que deseas encriptar o desencriptar
+              </p>
+            </div>
+          </div>
+          <div class="ajustar-copiar">
+            <div class="inactive encrypted-text-container">
+              <div id="render-text" class="ajustar-texto"><h3>Mensaje</h3></div>
+              <div>
+                <button
+                  class="btn-copy btn-tree"
+                  id="copiar-texto"
+                  type="button"
+                >
+                  Copiar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+  </body>
+</html>
